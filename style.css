@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/****----Sirine----****/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/****----Generalno----****/
+
+.centar{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/*-------Pozadina-------*/
+
+body{
+    background-image: url(slike/pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*-------Header-------*/
+
+.header{
+    
+    margin: 0 auto;
+    background-color:#3ad8e3;
+    width: 100vw;
+}
+
+/*-----Linkovi------*/
+
+ul{
+    font-family: 'Pacifico', cursive;
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid #e3ad3a;
+    background-color: #e3ad3a;
+    border-radius: 15px;
+    width: 170px;
+    margin: 10px;
+}
+
+ul li a{
+    font-size: 30px;
+}
+
+ul li:hover{
+    background-color: #f09b11;
+	border: 2px solid #f09b11;
+}
+
+/*-----Footer (copyright)-----*/
+
+footer {
+    background-color: white;
+    height: 25px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+ }
+
+/*******----NASLOVNA------********/
+
+.oblak{
+    border-radius: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    background-color:#e9c44c ;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid #e9c44c;
+    padding: 50px;
+    
+
+
+}
+
+.kutija{
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 50px;
+    background-image: url('slike/burger.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.akcija{
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
+.radnovreme{
+    margin-right: 5%;
+    margin-left: 50%;
+    margin-bottom: 2%;
+}
+
+
+#plus{
+    font-size: 40px;
+}
+
+/*****-----MENI-----******/
+.telo{
+    background-color: #e6c24b;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    font-family: cursive;
+}
+
+.naslov{
+    font-size: 45px;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 20px;
+    color:  #5b4005;
+}
+
+/*------Tabele-----*/
+
+ table,th{
+     border: 2px solid black;
+     border-collapse: collapse;
+ }
+
+ table{
+     margin: 0 auto;
+ }
+
+ th{
+    font-weight: lighter;
+    height: 35px;
+    color:#5b4005
+ }
+
+ /*******----O NAMA-----*******/
+
+ .rectangle{
+    background-color: #e9c44c;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid #e9c44c;
+    border-radius: 50px;
+    padding: 50px;
+    font-size: 2rem;
+    font-family: 'Amatic SC', cursive;
+ }
+
+ .rectangle h1{
+    margin: 0 auto;
+    border-bottom: 3px dotted black;
+}
+
+ .rectangle img{
+    border-radius: 20px;
+ }
+
+ .container {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+.container p{
+    padding: 20px;
+    font-weight: 600;
+}
+
+.yt_vid{
+    margin-top: 2%;
+}
+
+ /*******---KONTAKT----******/
+
+ .kocka{
+    background-color: #e9c44c;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid #e9c44c;
+    border-radius: 10px;
+    padding: 50px;
+    word-wrap: break-word;
+}
+
+.kocka img{
+    margin-bottom: 6%;
+}
+
+.kocka p{
+    font-size: 2rem;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+.kocka a{
+    color: black;
+    text-decoration: none;
+}
+.box{
+    background-color: #e9c44c;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding: 100px;
+    word-wrap: break-word;
+    background-image: url('slike/Instagram-logo1.jpg');
+    background-position: center;
+    background-size: cover;
+    font-size: 2rem;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+/******-----RESPONSIVE----******/
+
+
+
+@media (max-width:600px){
+
+    .header{
+        width: 100vw !important;
+    }
+    ul li{
+        width: 100px;
+    }
+    ul li a{
+        font-size: 12px !important;
+    }
+
+    /*---- NASLOVNA + O NAMA-----*/
+
+    h1{
+        font-size: 15px;
+    }
+
+    /*---O NAMA----*/
+
+    .container{
+        font-size: 12px !important;
+    }
+
+    p{
+        font-size: 12px !important;
+    }
+
+    iframe{
+            width: 112px  !important;
+            height: 36px  !important;
+    }
+
+    /*---MENI---*/
+
+    th{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 250px){
+
+    /*---O NAMA----*/
+
+    iframe{
+        width: 66px !important;
+        height: 18px  !important;
+    }
+
+    .rectangle p{
+        font-size: 6px !important;
+    }
+
+    /*---KONTAKT---*/
+    
+    .telo{
+        width: 150px;
+    }
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+
+#main-menu {
+  display: block;
+  height: 100px;
+  width: 100%;
+  background: #16a8b2;
+  margin: 0px;  
+  z-index: 9;
+}
+
+#main-menu ul {
+  max-width: 1000px;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 9;
+}
+
+#main-menu li {
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+#main-menu a {
+  color: #5b4005;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#main-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-input{
+  display: none;
+}
+
+#hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cabin', Sans-serif;
+    background: linear-gradient(
+      to bottom, 
+      #16a8b2, #16a8b2 20%, 
+      rgb(237, 237, 104) 20%, rgb(237, 237, 104) 40%, 
+      #16a8b2 40%, #16a8b2 60%, 
+      rgb(237, 237, 104) 60%, rgb(237, 237, 104) 80%, 
+      #16a8b2 80%, #16a8b2 100%
+    );
+}
+
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: #16a8b2;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+#hamburger-menu h3 {
+  color: #5b4005;
+  font-size: 2.2rem;
+}
+
+#hamburger-menu ul {
+  padding-left: 0px;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-menu a {
+  color: #5b4005;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+   visibility: visible;
+  opacity: 0.4;
+}
+@media screen and (max-width: 750px) {
+    #main-menu {
+      display: none;
+    }
+    #hamburger-menu {
+      display: inline;
+    }
+  }
