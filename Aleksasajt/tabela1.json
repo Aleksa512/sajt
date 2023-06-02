@@ -1,0 +1,9 @@
+[
+{"slika":"kola0.5l.jpg","ime":" Coca cola","kolicina":"0.5l","cena":"100Din"},
+{"slika":"kola0.3l.png","ime":" Coca cola","kolicina":"0.3l","cena":"90Din"},
+{"slika":"zero0.5l.jpg","ime":" Coca cola zero","kolicina":"0.5l","cena":"100Din"},
+{"slika":"zero0.3l.jpg","ime":" Coca cola zero","kolicina":"0.3l","cena":"90Din"},
+{"slika":"fanta0.5l.jpg","ime":" Fanta","kolicina":"0.5l","cena":"100Din"},
+{"slika":"next.jpg","ime":" Next","kolicina":"0.5l","cena":"100Din"},
+{"slika":"rosa0.5l.jpg","ime":" Rosa","kolicina":"0.5l","cena":"60Din"}
+]

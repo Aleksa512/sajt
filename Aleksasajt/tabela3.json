@@ -1,0 +1,8 @@
+[
+    {"slika":"pilecisendvic.jpg","ime":"Pileći sendvič","sadrzaj":"belo meso/batak i prilozi po izboru","cena":"295Din"},
+    {"slika":"deluxe.jpg","ime":"Delux sendvič","sadrzaj":"svinjski file, grilovano povrće i prilozi po izboru","cena":"345Din"},
+    {"slika":"gastrosendvic.jpg","ime":"Gastro Novi sendvič","sadrzaj":"slanina, kulen, pečenica, sir, jaje, začini","cena":"295Din"},
+    {"slika":"burger.jpg","ime":"Burger klasik","sadrzaj":"100% juneće meso, slanina, sir, prilozi po izboru","cena":"375Din"},
+    {"slika":"sir.jfif","ime":"Pohovani kačkavalj","sadrzaj":"kačkavalj, prilozi po izboru","cena":"325Din"},
+    {"slika":"family.jpg","ime":"Family mix","sadrzaj":"sendvić belo meso, delux sendvič, burger klasik, pomfrit x2, Coca Cola 1l","cena":"1400Din"}
+]
